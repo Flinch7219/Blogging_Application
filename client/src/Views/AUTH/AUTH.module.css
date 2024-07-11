@@ -1,0 +1,90 @@
+.ancestorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .headerContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .headerContainer h1 {
+    color: #1877f2;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .authContainer {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .authInput {
+    width: 93.5%;
+    padding: 12px;
+    margin-bottom: 10px;
+    align-items: left;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .addButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #166fe5;
+  }
+  
+  .auth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dddfe2;
+  }
+  
+  .infoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .infoContainer input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .noAuthMessage {
+    text-align: center;
+    color: #65676b;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+    color: #65676b;
+  }
+  
+  @media (max-width: 480px) {
+    .todoContainer {
+      width: 90%;
+    }
+  }

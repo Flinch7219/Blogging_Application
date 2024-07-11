@@ -1,0 +1,61 @@
+.editBlogContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    height: calc(100vh - 60px);
+}
+
+.editBlogContainer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.editBlogContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.editBlogContainer input,
+.editBlogContainer textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.editBlogContainer textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttonContainer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonContainer button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+.buttonContainer button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.cancelButton {
+    background-color: #6c757d;
+    color: white;
+}
+
+.cancelButton:hover {
+    background-color: #5a6268;
+}
